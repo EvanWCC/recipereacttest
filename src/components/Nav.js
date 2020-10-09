@@ -34,8 +34,8 @@ const Nav = () => {
           </Link>
       </div>
       <form className="nav__center" onSubmit={getNavRecipes}>
-          <input type="text" value={searchFood} onChange={(e) => setSearchFood(e.target.value)}  />
-          <SearchIcon />
+          <input placeholder="Search Others" type="text" value={searchFood} onChange={(e) => setSearchFood(e.target.value)}  />
+          <SearchIcon className="searchIcon" />
       </form>
       <div className="nav__right">
         <p>cook your healthy life</p>

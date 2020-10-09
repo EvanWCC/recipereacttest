@@ -5,11 +5,12 @@ const FoodSearch = () => {
     const { setFood } = useContext(RecipeContext);
    
     return (
-        <Paper>
+        <Paper className="search__food">
             <Button onClick={(e) => setFood("chicken")}>Chicken</Button>
             <Button onClick={(e) => setFood("beef")}>Beef</Button>
-            <Button onClick={(e) => setFood("seafood")}>seafood</Button>
-            <Button onClick={(e) => setFood("vegetable")}>Vegetable</Button>
+            <Button  onClick={(e) => setFood("pork")}>Pork</Button>
+            <Button  onClick={(e) => setFood("seafood")}>seafood</Button>
+            <Button  onClick={(e) => setFood("vegetable")}>Vegetable</Button>
                      
             
         </Paper>
