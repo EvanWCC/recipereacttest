@@ -1,0 +1,31 @@
+.incredients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+}
+
+li {
+   text-decoration: none;
+   list-style: none;
+}
+.incredient {
+    /* display: flex;
+    
+    align-items: center; */
+    margin: 15px auto;
+    
+}
+
+.amount_unit {
+    display: flex;
+    align-items: center;
+  
+}
+ .unit {
+    margin: auto 10px;
+} 
+
+.incredient_name {
+    flex: 1;
+    margin-left:20px;
+} 

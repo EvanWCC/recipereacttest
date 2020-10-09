@@ -1,0 +1,21 @@
+img {
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+.recipe {
+    
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    
+   
+}
+.recipe_content {
+   margin: 10px auto;
+   background-color: #B0C4DF;
+   padding:10px;
+   border-radius: 10px;
+}
+
+
